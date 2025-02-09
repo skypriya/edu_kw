@@ -1,0 +1,203 @@
+.tim-typo {
+  padding-left: 25%;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.tim-typo .tim-note {
+  bottom: 5px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  left: 0;
+  margin-left: 20px;
+  position: absolute;
+  width: 260px;
+}
+
+/* offline-doc */
+
+.offline-doc .navbar.navbar-transparent {
+  padding-top: 25px;
+  border-bottom: none;
+}
+
+.offline-doc .navbar.navbar-transparent .navbar-minimize {
+  display: none;
+}
+
+.offline-doc .navbar.navbar-transparent .navbar-brand,
+.offline-doc .navbar.navbar-transparent .collapse .navbar-nav .nav-link {
+  color: #FFFFFF !important;
+}
+
+.offline-doc .footer {
+  z-index: 3 !important;
+}
+
+.offline-doc .page-header .container {
+  z-index: 3;
+}
+
+.offline-doc .page-header:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#map {
+  z-index: 2;
+  height: calc(100vh - 70px);
+  margin-top: 70px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:999999;
+    display: block;
+}
+.fa-spinner{color:#fff}
+
+.ajax-loader{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.60);
+    display: none;
+    z-index: 9999;
+}
+.ajax-loader-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    padding:15px;
+    text-align:center;
+}
+.ajax-loader-box img{
+    width:70px;
+}
+.ajax-loader-box p, .ajax-loader-box h4{
+    width:100%;
+    font-size:16px;
+    color:#ffffff;
+}
+.ajax-loader-box h4{
+    font-size:20px;
+}
+.has-error{
+    color: red;
+}
+.eFormModalDiv {
+    background-color: #eee;
+    height: 150px;
+    flex: 0 0 31%;
+    max-width: 31%;
+}
+.eFormModalDivright {
+    margin-right: 20px;
+    text-align: center;
+}
+#eFormModalModule .modal-dialog{
+    max-width: 800px;
+}
+#eFormModalModule .eFormi{
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    color: #000;
+}
+#eFormModalModule .eFormlabel{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+#eFormAddPopup .has-error{
+    border-color: red;
+}
+#eform-2{
+    min-height: 680px;
+}
+.fielda{
+    float: right;
+    font-size: 20px;
+}
+.custom-file-label{
+    opacity: 1 !important;
+    z-index: 1 !important;
+    top: 35px !important;
+    padding: 0.2rem 0.75rem !important;
+}
+.field_scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 300px;
+}    
+.save-tab{
+    bottom: 0%;
+    left: 42%;
+    background: #900;
+    padding: 6px 12px;
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border:0;
+}
+.reset-tab{
+    bottom: 0%;
+    left: 50%;
+    background: #900;
+    padding: 6px 12px;
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border:0;
+}
+#eform-2 .card{
+    margin-bottom:0px;
+}
+.prev-tab {
+    -webkit-border-top-right-radius: 0px !important;
+}
+.next-tab {
+    -webkit-border-top-left-radius: 0px !important;
+}
+.eFormedit .card .table tr:first-child td{
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.eFormadd .card .table tr:first-child td{
+    border-top: 1px solid #dee2e6 !important;
+}
+.message_form{
+    height: 150px !important;
+}
+.messaging_font{
+    font-size: 10px;
+}

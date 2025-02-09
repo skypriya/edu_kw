@@ -1,0 +1,7 @@
+vendor
+node_modules
+webroot\uploads
+config
+tmp
+logs
+tests

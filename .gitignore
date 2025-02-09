@@ -1,0 +1,11 @@
+vendor
+node_modules
+webroot\uploads
+config\.env.default
+config\app.default
+config\app
+config\bootstrap
+config\bootstrap_cli
+tmp
+logs
+tests
